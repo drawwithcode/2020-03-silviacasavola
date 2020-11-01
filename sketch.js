@@ -75,7 +75,7 @@ john.style("cursor", "pointer");
 // STARTING VOLUME
 bass.amp(0);
 drums.amp(0);
-guitar.amp(1);
+guitar.amp(0.5);
 vocals.amp(0);
 
 
@@ -221,7 +221,7 @@ function toggleBass() {
   if (volume1>0) {
       bass.setVolume(0);
 		} else {
-          bass.setVolume(1)
+          bass.setVolume(0.5)
 					}
     }
 
@@ -232,7 +232,7 @@ function toggleDrums() {
   if (volume2>0) {
       drums.setVolume(0);
     } else {
-        drums.setVolume(1)
+        drums.setVolume(0.5)
 }
 }
 
@@ -243,18 +243,18 @@ function toggleGuitar() {
   if (volume3>0) {
       guitar.setVolume(0);
 		} else {
-          guitar.setVolume(1)
+          guitar.setVolume(0.5)
       }
     }
 
 
-//TOGGLE GUITAR
+//TOGGLE VOCALS
 function toggleVocals() {
 	let volume4 = analyzer4.getLevel();
 	if (volume4>0) {
 		    vocals.setVolume(0)
 		} else {
-			vocals.setVolume(1);
+			vocals.setVolume(0.5);
 		}
     }
 

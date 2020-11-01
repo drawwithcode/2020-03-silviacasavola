@@ -75,7 +75,7 @@ john.style("cursor", "pointer");
 // STARTING VOLUME
 bass.amp(0);
 drums.amp(0);
-guitar.amp(0.5);
+guitar.amp(0.3);
 vocals.amp(0);
 
 
@@ -221,7 +221,7 @@ function toggleBass() {
   if (volume1>0) {
       bass.setVolume(0);
 		} else {
-          bass.setVolume(0.5)
+          bass.setVolume(0.3)
 					}
     }
 
@@ -232,7 +232,7 @@ function toggleDrums() {
   if (volume2>0) {
       drums.setVolume(0);
     } else {
-        drums.setVolume(0.5)
+        drums.setVolume(0.3)
 }
 }
 
@@ -243,7 +243,7 @@ function toggleGuitar() {
   if (volume3>0) {
       guitar.setVolume(0);
 		} else {
-          guitar.setVolume(0.5)
+          guitar.setVolume(0.3)
       }
     }
 
@@ -254,7 +254,7 @@ function toggleVocals() {
 	if (volume4>0) {
 		    vocals.setVolume(0)
 		} else {
-			vocals.setVolume(0.5);
+			vocals.setVolume(0.3);
 		}
     }
 

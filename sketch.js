@@ -254,7 +254,7 @@ function toggleVocals() {
 	if (volume4>0) {
 		    vocals.setVolume(0)
 		} else {
-			vocals.setVolume(0.3);
+			vocals.setVolume(0.2);
 		}
     }
 
